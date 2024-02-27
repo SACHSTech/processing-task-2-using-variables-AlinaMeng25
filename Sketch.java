@@ -9,13 +9,13 @@ public class Sketch extends PApplet {
    * Called once at the beginning of execution, put your size all in this method
    */
   public void settings() {
-	// Size call
+
+	// Size call, square dimensions.
     size(intSize, intSize);
+
   }
 
-  /** 
-   * Background items
-   */
+  // Background items
   public void setup() {
     background(255, 0, 0);
 
@@ -33,9 +33,7 @@ public class Sketch extends PApplet {
 
   }
 
-  /**
-   * Called repeatedly, anything drawn to the screen goes here
-   */
+  // Drawn items
   public void draw() {
 
     // Stroke reset
