@@ -10,6 +10,7 @@ public class Sketch extends PApplet {
    */
   public void settings() {
 
+    
 	// Size call, square dimensions.
     size(intSize, intSize);
 
